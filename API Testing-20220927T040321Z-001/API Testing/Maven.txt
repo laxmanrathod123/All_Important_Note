@@ -1,0 +1,39 @@
+Maven 
+
+1. Central Repository to get dependencies
+2.maintaining common structure across the organization
+3.flexibility in integrating with CI tools
+4.plug in for Test framework execution
+For maven there is site like maven in 5 minutes
+
+ How to Download the Maven 
+ Go to  Maven download and download the
+
+Binary zuip archive   apache-maven-3.5.0.zip
+After downloading the maven give the envirnment variable path 
+MAVEN_HOME AND PROVIDE THE MAVEN PATH LIKE C:\apache-maven-3.8.6-bin\apache-maven-3.8.6
+ AND AFTER THAT PROVIDE THE BIN PATH FOR THE SAME
+
+extract the donloaded zip file and paste it in c drive in program file folder and the give the path from there
+
+and check the maven in cmd
+ mvn -- version
+
+Artifact : An artifact is a file usually a JAR that get deployed to a maven repository
+Group Id : will identify your project uniquely across all projects
+archtype generate : Generate a new project from an archetype
+
+command use in cmd
+
+mvn archetype:generate -DgroupId=qaclickacademy -DartifactId=Mavenjava -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+after to generate the .class file and project file we need to give the below command 
+
+mvn eclipse:eclipse  and then enter
+
+All the jar file are stored in the m2 forder where maven download the dependencies of the jar
+
+package name is nothing but the group id
+and 
+project name is nothing but the artifact id
+

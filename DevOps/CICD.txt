@@ -1,0 +1,39 @@
+Continuos Integration and continuos Delivery (CI CD)
+
+Continuos Integration(CI) :
+
+It is a process of automating the build and testing of code every time a team member commit changes to version control
+
+means 
+developer write some code and after it will build the war file using jenkin and if some code changes is happen like code is update and new feature code
+is come then when he commit the code so all the code will be tested and build one war file and deploy this war file to the server 
+Continuous Delivery (CD) : 
+
+Continuous delivery is the process to build , test, configure and deploy from a build to a production evnironment 
+
+continuosaly test and deployed to the staging environment   
+
+We are using SSH for to connect with the linux server
+so 
+putty 
+MobaXTerm are used to connect with linux server
+
+Linux commands
+
+PWD -present working directory
+cd ..    one step behind the directory
+ls => will help you to show how many file and folder present in the directory
+
+for to download anything EC2 user dont have permission so need to login with root user
+sudo su -  => directaly go to root user (root user have access to download)
+pwd
+ls
+ls -a  => to see all hidden file in root path
+cd 
+pwd
+cd root  => here we now start downloading all the software
+clear  = clear the screen
+
+command line tool for download software : YUM , WGET,APT
+cmmWhat is Yum?
+its primary tool for getting, installing,deleting , querying,and managing software packages.

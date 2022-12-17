@@ -1,0 +1,27 @@
+WindowHandle in Selenium
+
+There are two method which handle the window in selenium
+1.getWindoHandle => it will retrun the string of the window means it return the current gui meand current window id
+2.getWindoHandles => This will return the multiple window id 
+it return type is set of string
+we can achieve this by using iterator
+eg
+Set<String>itr=webelemetn.iterator()
+String firstwindow =itr.next
+String secondwindow =itr.next
+ 
+for switching the window we need to switch 
+driver.switchTo().window(passed the window);
+
+for get back to main window also need to switch and passed main window 
+
+
+How to get the page title of multiple windows 
+
+Set<String> abc=driver.getWindowHandles();
+Iterator <String> itr=  abc.iterator();
+while(itr.hasNext()){
+driver.switchTo().window(itr.next());
+System.out.println(driver.getTitle)); 
+}
+

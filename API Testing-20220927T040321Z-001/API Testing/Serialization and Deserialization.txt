@@ -1,0 +1,19 @@
+Serialization and Deserialization of Request/Responses with POJO Classes
+
+Serialization : converting Request body(payload) into java object
+
+Deserialization : converting the response(payload) into the java object
+
+Serialization :
+
+Need to create the pojo class for the same and initialise the variable and create getter and setter method and then create the 
+object of this class and passed into the body method 
+
+key point
+1. if the variable having the child object then need to create the child class for the same and then inject into the initialise variable as class
+
+2. if the varaible contain the Array then defined the variable at the time of initialization as an List and then and the time of injecting create the
+Arrraylist and add the element into it and then inject the obhect of ArrayList into setter method of the Array
+
+3. All the input need to provide in the setter method
+

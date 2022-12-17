@@ -1,0 +1,12 @@
+LinkedList In Collections
+
+LinkedList is special collection or I would say Dynamic Array which is store data on the basis of two things one is actual data and another is referece data(reference 
+of the next node)
+
+Its all method same like ArrayList only few of the listed method is in LinkedList
+1.addFirst()
+2.addLast()
+3.getFirst()
+4.getLast()
+5.removeFirst()
+6.removeLast()

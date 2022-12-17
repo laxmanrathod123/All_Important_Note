@@ -1,0 +1,7 @@
+Exception in Java
+
+One try can be followed by multiple catch block
+Catch should be an immediate block after try
+
+Exception e -> Is a parent class and its accept all kind of excpetion 
+catch block is related to error means if the error is present in the java code then its look for the catch block which handle the same error

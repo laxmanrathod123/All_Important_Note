@@ -1,0 +1,29 @@
+Instead of class we have to put enum 
+so enum is collection of constants and methods 
+
+
+How to run our test cases using Maven 
+lets see
+ Go to your project workspaces and open cmd 
+then type the command mvn test
+if you type mvn compile then it only compile the test not run 
+but if you type the mvn test then its compile and run the test 
+
+How to provede tagging from the cmd 
+ mvn test -Dcucumber.options="--tags @AddPlace"  => To run the tag
+
+ test verify -Dcucumber.options="--tags @AddPlace" => verify is used for report this command used to run the jenkin build
+
+D stand for the parameter we gonna provide for tagging 
+
+click on build now to run the test on jenkin
+
+Jenkins
+http://localhost:8080/
+
+
+test verify -Dcucumber.options="--tags @AddPlace" => verify is used for report this command used to run the jenkin build
+
+D stand for the parameter we gonna provide for tagging 
+
+test verify -Dcucumber.options="--tags @"$tag""

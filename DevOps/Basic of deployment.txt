@@ -1,0 +1,29 @@
+Basic of deployment 
+
+Application server : its a application server/web server specially designed to run the application or its server to host the application 
+where all our code like java code will be injected/ or pushed  into it 
+
+it handle http request and send response call over http protocol 
+
+Hosted Server :  Hosted server are nothing but the physical machine where application/web/Database servers are hosted
+ Application server cans start at any point in hosted server and can be accessed through 
+HostedSErverIpAddress : portNumber
+
+Application server can start at any point in Hosted server and can be acessed through 
+HostedServerIpAddress: PortNumber
+
+we can map HostedSErverIpAddres: PortNumber to any custom Doamin Name 
+so that we can acess the applicatin server directly with the domain name
+
+godaddy is the website where you can buy the domain name 
+
+To leep our Developed App running on server and access if from anywhere ,we should first build the code so that build file will be generated .
+These build files should be placed into App/Web Server and then we can access the developed App 
+directly on the broser with 
+HostedServerIPAddress: PortNumber or with Domain Name if mapped.
+
+
+Application server
+
+Apache tomacat download
+64 window zip

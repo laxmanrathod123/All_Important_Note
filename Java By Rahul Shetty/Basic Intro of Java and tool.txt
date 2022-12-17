@@ -1,0 +1,27 @@
+                                                                            Java by Rahul Setty
+
+
+ Why Java is called Platform Independent Languages ?
+
+When you run your java code java then compilier convert all your programming code into the byte code.
+Run a program -> Java compiler -> convert program into byte code -> Now this byte code you can run on any platform like linux ,mac and unix ,window ,solar.
+means we are creating byte through the compiler and that byte code are run on any platform so that why Java is called Platform Independent Languages.
+
+JRE -> Java Run Time Environment -> Its responsible for Run The Java plain program 
+JDK -> JDK is tool which contain JRE and all tool which is responsible for debugging the code
+
+How to check java in our machine?
+
+java -version
+
+How to download Java in our Machine?
+
+Java path and Java bin path need to give
+1.JAVA_HOME -> Give the path of the java
+2.Path      -> Give the java bin path
+
+Java Editor tool
+Ecplise
+ 
+
+RahulShettyAcademy.com  you can learn all the core java concept there

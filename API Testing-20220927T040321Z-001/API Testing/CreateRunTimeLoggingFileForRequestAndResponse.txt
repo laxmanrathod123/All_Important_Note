@@ -1,0 +1,18 @@
+How to generate the logging file during runtime
+
+we need to follow the below step for the same'
+
+addFilter(RequestLoggingFilter.logRequestTo(passed the PrintStream object)).
+addFilter(ResponseLoggingFilter.logResponseTo(passed the PrintStream object))
+
+then create the object of PrintStream class
+
+PrintStream log= new PrintStream (new FileOutputSteam("loggig.txt"));
+
+
+FB QA Group
+
+https://www.facebook.com/groups/RahulShettyAcademy
+
+Linkedln
+https://www.linkedin.com/in/rahul-shetty-trainer

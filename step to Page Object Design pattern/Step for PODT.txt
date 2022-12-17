@@ -1,0 +1,29 @@
+step to follo for implementing the page object design pattern
+
+first step
+create page object package and class for the landing page and defined all the relevant locator into it
+1.username 
+2.pass
+3.button
+
+in this class there is no any value for the driver right so need to create the constructor and assign the driver of main class to the costructor
+
+
+How to use the reusable method in main class where we are running our test cases
+just extends this reusable method to main class so this reusable method require driver 
+How to send the driver to the reusable method
+
+Ans: By using super keyword i.e super(driver)
+
+so the every child class of page object that is extending the parent reusable class that needed a driver must
+means: 
+if Abstract class is our reusable class so and if this class is exteded by the pageobject class then each and every page object class need to give
+driver to that reusable class by writing super(driver)
+
+
+How to optimize the code
+suppose we submit the credential like username and password then we are going on landing page so that landing page object creation is do in the same 
+login method
+
+if we do so then we need to change the written type of the same method 
+

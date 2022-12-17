@@ -1,0 +1,102 @@
+Cyress   Cypress.io is the official website	
+
+Cypress its a front end web Automation Testing tool and its specially developed for modern web Applicaton Previousaly we have different type of 
+webapplication and which is developed by using Static html,css and some piece of javascript They are all traditional web application and 
+ Now a day many of the application are designed by using latest technology or latest javascript framework like we have :=>
+1.React js 
+2.Angular js 
+so this type of framework are using webapplication developement and those application are basically called as modern based application so to test 
+this specific type of application we need specific type of feature and which is present in the cypress so cypress is specially designed for webAutomation
+and we can automate modern webAutomation in cypress and they are designed by using React js , AngularJs and so on	 	
+
+Any by using cypress we can automate any kind of automation which runs on browsers we can automates and basically its use Javascript and morever its
+open source 
+
+TestRunner(Cypress App): Its free version availabel We can use for to write a script and desing a framework and do 80% if work on automation
+
+Dashboard : Its apIts a paid version for mainting the test history or we can say if we want to run our test cases parallely then we need this feature
+
+Cypress is specically build on node js environment  and its comes with npm module (npm - node package manager) and we use this for downloading the
+cypress and installing the cypress
+
+So cypres is front end webapplication testing tool and specially designed for modern application and we can automate any application which is run 
+on browser
+
+And internally we write our test case using JavaScript its support only java script and we also use Typescript because typescript is desinged on top 
+of javascript and doesant use selenium libraries and its totally different from selenium .
+
+If you want to run your test cases then we need node js envirnment and comes with npm module
+
+Who can use cypress
+And initially cypress is specially developed for developers to perform unit testing and itegration testing
+so Specially cypress is designed for end to end automation test cases so we can automate end to end test cases
+
+Use of cypress  Who can use cypress both QA and DEV
+
+1. End to End test cases
+2.Integration test cases
+3.Unit test cases
+4.And also API Testing
+
+Difference Between Selenium and Cypress
+
+Selenim                                                                             cypress
+
+Application Support
+1. In selenium we can only automate web                                      1. In cypress we can automate web testing and API Testing
+
+Cost
+2.It totally free and open source                                            2. In cypress only Test Runner is free and Dashboard is paid
+
+SetUp and Installation
+3.Difficult                                                                  3. easier
+
+
+Languages
+4. Java, python, C#, Rubby JavaScript                                        4. Cypress support only java script and typescript
+
+Browser Support
+5.Selenium support all browser
+like chrome, firefox, explorer, opera, safari                                5. Chrome , edge ,firefox and electron
+
+Framework support
+6.Junit, TestNg, Pytest based on programming languages                       6. Mocha JS
+
+Performance
+7.Run outside of the browser so performance is slower than cypress           7. Our Test run inside the browser so perfomance is faster than selenium
+
+Reporting
+8.Integrate with Extend, Allure etc                                          8. we have only one report that is mocha report, cypress dashboard
+
+
+
+
+These are the basic different between them
+
+Cypress EcoSystem 
+1.Test Runner - use - set up and start and to run the test case
+2.Dashaboard - use- record and play version(watch your all videos of test cases)
+
+
+Feature
+1.Time Travel  (Its take screen shot automatically when our test is runnig) 
+each and every line of code screenshot will do the cypress and maintained the history
+
+2. Debugging
+3.Automatic wait (build - in- wait)  means it will autimatically wait for the weblement and that is biggest adavantage
+4.consistency - if you run n number of time then you will get same result the test case not failed but in selenium if we do so then might be test case are fail
+5.our test is runnin inside of the browser its also biggest advantage
+6.Screenshot and videos will automatically capture and these feature are inbuild in cypress no need to write additional code
+7.Crossbroser testing support we can run our test case on defined browser
+
+ Limitation
+1.we can not autimate window based or desktop and mobile based application
+2. we have limited support of browser
+3.for languages perpective it only support only Javscript and typescript
+4.Its tough to read data from the file (reading and writing is difficult)
+5.Third party reporting tool limited
+
+
+
+
+

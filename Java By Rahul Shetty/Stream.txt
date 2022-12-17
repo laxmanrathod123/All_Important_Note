@@ -1,0 +1,12 @@
+Stream In Java
+
+Take the object of ArrayList and perform the stream operation on that object
+
+Object of Stream is arr
+
+Long L=arr.stream().filter(ele->ele.startWith("A")).count();
+System.out.println(l)
+// It will print the count of letter A which is present the arrayList
+explanation:
+
+we have taken array list in Stream 

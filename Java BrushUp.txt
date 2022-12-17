@@ -1,0 +1,45 @@
+java -version  
+To check the version of the java is installed in our system or not
+
+why we need set the java path in our environment variable
+jay apalyala apala code kutylya pn drive made asel to execute karayacha asel tar te apan java cha path devun karu sakto
+
+Create java project
+file-> New-> JavaProject->Type the name of the project ->done
+After click on SRC folder New-> Package
+
+How to execute our file in CMD
+Go to that folder where out file is present and open cmd from there
+Then write the following command
+javac EnterFileName.java  eg.Program51.java  
+java EnterFileName
+
+javac Program51.java
+java Program51 
+
+Then you will get the execution	
+Static and Non Static
+we can make static to variable,method,class,and object
+
+whenever we create object it will create a memory
+multiple object Hence, so multiple memory is to be created
+
+Variable 
+Global variable
+whatever we write inside of the class and which is outside of the main method that is global variable
+outside of the main method and inside of the class
+
+Static
+Static pool 
+Only the static data is loaded into the static pool Memory
+Three way to call static data
+1.by using object
+2.by using class name
+3.by using direct their name
+
+so for static data only single copy is made cause all data are loaded in static pool and loaded at compile time
+and for nonstatic data whenever we create multiple object then multiple copies are going to be create and loaded
+at the time of object creation
+
+Note: You can not called any non static data in Static method like main method if you do so you need to create the 
+object for the nonstatic data and make that object as static then and then you can call it

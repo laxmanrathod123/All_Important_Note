@@ -1,0 +1,14 @@
+Rest Assured
+
+What is Rest Assured >
+
+Rest Assured is a java based library that is used to test the RESTful Web Services/API's
+
+Rest Assured work on Three principle
+Given
+When 
+Then
+
+Given => all the input details are in the given method ( we load all the detail in this method)
+When  => hit and submit the API ( Go and submit all the api with using https method like Resource and all https method go in when method )
+Then  => In this method we will validate the response

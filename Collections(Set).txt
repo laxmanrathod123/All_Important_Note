@@ -1,0 +1,87 @@
+Collection --->   Set
+
+Three classes such as HashSet, LinkedHashSet, and TreeSet implement set interface.
+ConcurrentSkipListSet and EnumSet classes also implements set interface.
+
+HashSet is a concrete class that implements set interface. It uses a hash table mechanism to store its elements.
+ It is the best-performing implementation.
+
+TreeSet is a concrete class that implements SortedSet interface (a subinterface of set). It uses a binary search tree mechanism to store 
+its elements.It orders its elements based on their values. It is considerably slower than HashSet.
+
+LinkedHashSet is a concrete class that extends HashSet class. It stores its elements using hash table mechanism with a linked list implementation.
+
+It orders its elements based on the order in which they were inserted into the set. That is, elements in the HashSet are not ordered but elements in the 
+LinkedHashSet can be retrieved in the order in which they were inserted into the set.
+
+
+
+When you want to represent group of object as single entity then we should go for collection
+Iterator:
+ its nothing but one of the pointer its traverse one object to another object. When there is no indexing then we use iterator
+
+Key properties
+1. In set there is no indexing means its not order collections so the object are stored randomaly means somewhere the object are stored
+2. Dublicate data are not allowed
+3.its stored only the unique values
+4.It can be iterated by using Iterator but cannot be iterated by using ListIterator.
+5.It does not provide any get method like a list.
+
+
+
+HashSet and LinkedHashSet 
+
+HashSet 
+1.Dublicate are not allowed
+2.Insertion order is not present 
+3.HashSet date structure is followed by HashSet
+
+LinkedHashSet
+1.Dublicate are not allowed
+2.Insertion order is present
+3.HashSet + LinkedList Data Structure is followed by LinkedHashSet
+
+When to use LinkedHashSet in Java?
+
+LinkedHashSet can be used when you do not want duplicate elements (i.e. want to remove duplicate elements) and want to maintain order in 
+which elements are inserted.
+
+If you want to impose different orders such as increasing or decreasing order, you can use TreeSet class that you will learn in the next tutorial.
+
+A TreeSet in Java is another important implementation of the Set interface that is similar to the HashSet class, with one added improvement.
+
+It sorts elements in ascending order while HashSet does not maintain any order.
+
+Java TreeSet implements SortedSet interface. It is a collection for storing a set of unique elements (objects) according to their natural ordering.
+
+It creates a sorted collection that uses a tree structure for the storage of elements or objects. In simple words, elements are kept in sorted, ascending order in the tree set.
+
+
+TreeSet
+
+A TreeSet in Java is another important implementation of the Set interface that is similar to the HashSet class, with one added improvement.
+
+It sorts elements in ascending order while HashSet does not maintain any order.
+
+Java TreeSet implements SortedSet interface. It is a collection for storing a set of unique elements (objects) according to their natural ordering.
+
+It creates a sorted collection that uses a tree structure for the storage of elements or objects. In simple words, elements are kept in sorted, 
+ascending order in the tree set.
+
+In Java TreeSet, access and retrieval of elements are quite fast because of using tree structure. Therefore, TreeSet is an excellent
+ choice for quick and fast access to large amounts of sorted data.
+
+The only restriction with using tree set is that we cannot add duplicate elements in the tree set
+
+Features of TreeSet class in Java
+
+1. Java TreeSet contains unique elements similar to the HashSet. It does not allow the addition of a duplicate element.
+2. The access and retrieval times are quite fast.
+3. TreeSet does not allow inserting null element.
+
+4. TreeSet class is non-synchronized. That means it is not thread-safe.
+
+5. TreeSet maintains the ascending order. When we add elements into the collection in any order, the values are automatically presented in sorted, ascending order.
+
+6. Java TreeSet internally uses a TreeMap for storing elements.
+

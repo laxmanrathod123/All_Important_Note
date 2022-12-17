@@ -1,0 +1,16 @@
+Constructor In Java
+
+Key Point :
+
+1. Whenerver you create the object constructor is called
+2. If you are not defining the constructor then compiler will call the imlicit constructor
+3. If you are defining the constructor explicitly then constructor get called and whaterver written in constructor get printed
+4. Constructor do not return anything that is constructor dont have any return type
+5. Constructor name is same as class name
+
+There are two type of the constructor
+1. Default constructor
+2. Parameterized constructor
+
+if we passed the parameter then first parameterized constructor will called
+and if we dont pass the parameter then bydefault default constructor will called

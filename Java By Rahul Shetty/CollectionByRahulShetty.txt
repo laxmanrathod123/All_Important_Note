@@ -1,0 +1,26 @@
+Collection By Rahul Shetty
+
+List Interface
+List is a collection below are the classes implement List Interface
+1.ArrayList
+2.LinkedList
+3.vector
+
+Element stored in ordered manner
+
+All these three classes is accepting the dublicate
+
+
+Set Interface
+HashSet , treeSet, LinkdedHashSet These three classes implemented the set Interfaces
+These all three classed does not allowed the dublicate
+
+Element does not stored in ordered 
+
+HashMap And HashTable 
+
+HashMap is not synchronized and not thread safe
+In HashMap multiple program or thread can access the HashMap and make it non synchronised
+HashTable is synchronized and Thread safe
+Only one program or only one thread can access the HashTable and make it synchronised and thread safe
+we can not iterate in HashTable

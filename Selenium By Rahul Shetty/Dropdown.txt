@@ -1,0 +1,25 @@
+Dropdown
+
+Static dropdown
+
+In this dropdown option we see is fix
+Mostly select drodown are nothing but static
+
+Static dropdown is handle by using Select class
+
+There are three method of select class which are as 
+1.selectByIndex();
+2.selectByVisibleText();
+3.selectByValue
+
+Dyanamic Dropdown
+
+see the how many element for the same dropdown for that element and if we found the two dropdown
+Then explicitly write the xpath for that two dropdown element 
+()[2] => like this but some of the compony may not allowed the indexing so that time use relationship xpath
+
+//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='MAA']  given a space after parent xpath
+
+
+In AutoSuggestive dropdown need to store the elements in the list and iterate it and then use equalIgnorecase and click on it
+

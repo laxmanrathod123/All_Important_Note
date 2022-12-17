@@ -1,0 +1,19 @@
+Selenium Feature :
+
+Selenium is open source Automation Testing tool => you can download it free
+It is exclusively for Web Based Applications
+Selenium Support multiple browser -
+Chrome , firefox , Internet Explorer and Safari
+Selenium work with multiple platform like windows , Apple os x , Linux
+Selenium can be coded in multiple languages Java , C# , python, Javscript, php, Ruby
+
+selenium official website 
+seleniumhq.org
+
+There are two tool in selenium 
+1.Selenium wedriver
+2.Selenium IDE - Its record and playback tool its dont use in practical
+
+Selenium Remote control is officially depricated
+
+

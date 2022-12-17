@@ -1,0 +1,17 @@
+Access Modifier in Java 
+
+1.  Public 
+2.  Private
+3.  Protected
+4.  Default
+
+Default -> The rule of default access specifier is it can be access anywhere in the same package and its  not access in the another package .
+           Its also applicable for the variable means you can not access the variable in another package
+
+public -> If you make any variable , method and classes as public then you can access in any packages
+
+
+private-> If you mark as any variable and method as private then you can not access this at outside of the class of same package as well.
+
+
+protected -> default + subclasses thats is extended 

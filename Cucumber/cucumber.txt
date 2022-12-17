@@ -1,0 +1,4 @@
+import static org.junit.Assert.*
+
+Hooks In Cucumber
+Hooks will help you to set your precondition and postcondition in our scenario

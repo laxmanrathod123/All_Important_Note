@@ -1,0 +1,13 @@
+Final  keyword
+
+If you mark as any class as final you can not inheritate the properties of class
+
+If you mark as any variable as final then you can not update the value of that variable
+
+If you mark as any method as final then you can not over ride that method in child class
+
+final keyword use in 
+1. Method level
+2. class level
+3. variable level
+

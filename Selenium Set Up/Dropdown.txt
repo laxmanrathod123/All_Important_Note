@@ -1,0 +1,15 @@
+Dropdown
+We can handle dropdown by using select class
+
+There are multiple method are available in select class which are :
+1.selectByIndex
+2.selectByValue
+3.selectByVisibleText
+4.getOptions  => This will return you the list of webelement
+5.getFirstSelectedOption
+6.getAllSelectedOption
+7.isMultiple  => its ensure the multiple dropdown is present or not return type is boolean 
+8.deselectByIndex
+9.deselectByValue
+10.deselectByVisibleText
+11.deselectAll

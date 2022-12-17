@@ -1,0 +1,9 @@
+Jenkins
+
+username : Admin
+password : Admin123
+http://localhost:8080/
+
+http://localhost:8080/
+
+https://github.com/rahulshettyacademy/DevopsBasics

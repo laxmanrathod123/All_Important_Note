@@ -1,0 +1,36 @@
+Type of cloud
+private
+public 
+hybrid  => combination of both private and public 
+
+six advantage of cloud computing
+Trade capital expense (CAPEX) for operational expenses (OPEX)
+-Pay on demand dont own hardware
+-Reduced Total cost of ownership (TCO) and operational Expense(OPEX)
+
+Benefit from massive economies of scale
+-price are reduced as ASW is more efficient due to large scale
+
+Stop guessing cpacity
+- scale based on actual measured usage
+
+Increased speed and agility
+
+stop spending money running and maintining data centres
+
+Go global in minutes leverage the aws global infrastructure
+
+S3 is global services not require regionm
+
+Shared responsibility Model for IAM
+AWS is responsible for
+Infrastructre (global network security)
+configuration and vulnerability analysis
+Compliences validation
+
+Our/user role
+Users,groups,Roles,policies,management and monitoring
+Enable MFA on all account
+Rotate all your keys often 
+
+IAM credential report is an IAM security tools

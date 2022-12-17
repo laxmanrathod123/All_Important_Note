@@ -1,0 +1,24 @@
+Abstraction In OOPS Concepts
+
+if the class contain the any method which do not have body then this is called as abstract method and due to this , this class also become the abstract class
+
+Means abstract class can contain the concreat method (which is called comlete method having the opening curly braces called body) as well as incomplete method (which do not have
+have body)
+
+so if the class contain only one abstract method then class become abstract  
+
+You can not create the object of the abstract class (we can say the parent class which become abstract due to incomplete method present inside this class)
+
+if the parent class of any method define with private access modifier then you can not inheritate or implement that private method . So the role of abtraction is to 
+implement the incomplete method and that should not lies with private access modifier
+
+Abstraction is also called partial abstraction cause it contain complete and incomplete method
+
+Interface is fully abstraction so interfaces contain only abtraction method
+
+extends keyworld is used to achieve the abtraction
+
+
+Real time scenario when Abstraction come into picture
+
+There is parent class of Aircraft compony and which is global and manage all manufacturing data

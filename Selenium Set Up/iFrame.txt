@@ -1,0 +1,15 @@
+Iframe in selenium
+
+index =0,1,2 
+name = name of that frame
+
+How to identified that iFrame is there not
+=> we can Identify the iFrame by Id, name, element and index.
+
+This all return true or false
+isDisplayed => it ensure the particular webelement is displayed or not
+
+isEnabled => it ensure the particular element is clickable or not
+
+isSelected => used to verify if the web element is selected or not
+its used with radiobuttons, drop down and checkbox

@@ -1,0 +1,34 @@
+Response Status code
+200 : Ok
+
+201 : Created it used with post request when new rocord is created 
+
+202 : Accepted 
+
+203 : Non Authoritative Information
+
+204 : NO content
+
+
+Client error
+
+400 : Bad Request
+
+401 : Unauthorized
+
+403 : Forbidden
+
+404 : Not found
+
+
+Server Response
+
+500 : Internal server error
+
+501 : Not Implemented
+
+502 : Bad Gateway
+
+503 : Service Unavailable
+
+504 : Gateway Timeout

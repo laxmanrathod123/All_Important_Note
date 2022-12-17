@@ -1,0 +1,66 @@
+Locator
+selectorhub and chropath
+
+
+In console of inspect we can assure how may result for the identify locator attribute
+ for css selector
+$('p.error')
+
+put $ and () paste inside this in single coat
+
+for xpath
+
+$x('//input[@placeholder="Name"]')
+
+
+CSS Selector
+
+clasname 
+tagname.classname
+
+id 
+tagname#id
+
+tagname[attribute='']
+
+
+    Link Text assist with anker tag a <a  This represent the link text
+
+
+Xpath
+
+// tagname=[@a.n='a.v']
+
+if you dont have number of element matching to this locator then passed the index i.e if shows four element match then just give after that xpath
+[2]  => This will point to the second element which you are looking for
+This is callled indexing method
+
+This is for xpath 
+//input[@type='text'][2]
+
+This is for css selector
+input[type='text']:nth-child(2)
+
+customize xpath
+
+// parenttagname singleslash childtagnem
+
+customize css 
+ parenttagename space childtagname  => no need to // into this
+
+Following-sibling
+
+suppose we have found eg. button is located three time and that is constantly changing then we need to write a customize xpath and that should not fail
+then we use this
+
+<button
+<button
+<button
+//header/div/button[1]/following-sibling::button[2]
+so xpath should like that => following-sibling::button[2]  -> This represent the secong button 
+
+how to go to reverse
+
+//header/div/button[1]/parent::div      just give one forward slash and then write parent::and tag name
+
+

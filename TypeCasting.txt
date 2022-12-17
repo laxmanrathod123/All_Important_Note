@@ -1,0 +1,12 @@
+TypeCasting
+
+means converting one datatye value into another datatype value 
+
+There are two type of TypeCasting
+1.Implicit typeCasting
+2.Explicit TypeCasting
+
+ImplicitTypeCasting : coverting smaller data type value into bigger data type
+
+ExplicitTypeCasting : converting bigger data type value into smaller data type value
+That time we may need to type caste

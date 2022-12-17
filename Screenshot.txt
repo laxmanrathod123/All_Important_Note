@@ -1,0 +1,6 @@
+How to take the screenshot
+
+To take the screenshot you have to convert your webdriver object into screenshot object 
+
+to add the jar goto the link 
+common.apache.org and download this commons-io-2.11.0-bin.zip

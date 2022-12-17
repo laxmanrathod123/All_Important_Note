@@ -1,0 +1,17 @@
+Maven and framework dependancies
+
+How to create the maven project
+
+new - project - maven - maven project -after select the archetype
+
+for automation project we need to select this 
+
+Group id                      artifact id
+org.apache.maven.archtypes   maven-archtype-quickstart
+
+
+Dependancies Requires: From  Central Repository
+
+1.selenium-java
+2.test ng
+3.webdrivermanager

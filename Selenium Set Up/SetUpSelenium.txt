@@ -1,0 +1,93 @@
+========================================================    Selenium   =============================================================
+
+
+Selenium Architecture
+
+    WebDriver is an Interface which is implemented by RemoteWebDriver class and this class is extended by ChromeDriver,FireFoxDriver,IEDriver etc.
+
+create java Project
+
+Right click on package Explorer -> New -> Java Projet -> write Project Name ->
+
+Google search -> Download Selenium Jar file (site Name: selenium .dev/dowloads/) go to release version -> download selenium -java-3.141.59.zip
+
+Right click on Selenium Project -> Java Build Path (In Liabraries Tab) -> click on Add External JARs  -> Aply and OK -> Set up Done 
+Download The Browser wise exe file for all like chrome , firefox and Internet Explorer etc.
+
+For Using the selenium , it need driver to perform the operation so we need to give the path of driver to selenium to perform the operation
+so for that we have one code 
+
+System.setProperties("key String","value String "); key is our like "webdriver.chrome.driver", and our value is "path of our driver"
+
+
+Selenium is web based automation tool . Used to Automate web based Automation
+
+Selenium cant work on desktop application and mobile application its only used to automate the webbased automation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

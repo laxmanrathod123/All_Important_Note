@@ -1,0 +1,7 @@
+OverLoading concept in OOPS
+
+Overloading means if the class contain different method with the same name but different argument 
+
+NOTE : In a class multiple method with the same name but the differentiating with base upon the argument its called functional over loading
+
+=> same method name => but different data type in the method argument

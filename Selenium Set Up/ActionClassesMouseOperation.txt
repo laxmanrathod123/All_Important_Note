@@ -1,0 +1,21 @@
+Actions Class
+
+How to perform Mouse Operation by using Acitions Class
+
+1.Right click
+
+To perform the right click operation we need to find that webelement by using locator and then store in WebElement , after that need to create the Actions class 
+object and then use that object.contextClick() method then perform() so this will do the right click operation 
+
+2.doubleclick()
+ similar like Right click method we need to store the element in WebElement and then perform the doubleClick action on that element 
+
+3.moveToElement();
+Its mouse hover action perform by the moveToElement method present in the Actions class
+
+Need to inspect the element and perform the moveToElment method on that WebElement object 
+
+4. dragAndDrop()
+
+Need to inspect the source and target WebElement and perform the dragAndDrop() method 
+

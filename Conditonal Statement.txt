@@ -1,0 +1,24 @@
+Loops in Java
+
+1.While Loop
+
+key points
+1.we need to inialiase first
+2.second is conditional part
+3.Increment or decrement part
+
+Drawback/Disadvantage
+ if we not give increment or decrement part then loop will go in infine 
+
+2. For loop 
+
+In for loop intialization , conditional and increment and decrement part are in single line 
+
+3.do while loop
+
+it will print the value without checking the condition
+
+4.If else
+
+we need to give condition in if : if The condition is true then it will print the if statement 
+or if the condition is false its not print the statement which is present in the if statement

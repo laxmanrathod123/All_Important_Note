@@ -1,0 +1,36 @@
+       Enum Set in collection 
+
+
+Enum set is extending abstract set and implementing Set
+
+1.Enum set is faster than HashSet 
+2.its not synchronised Thats why the performance is fast
+3.Its highly performance java collection member
+4.All the method are implemented using bitwise arithmatic operation and its fast than normal arithmatic operation
+
+Method use in EnumSet
+Syntax of EnumSet
+
+we need to create the method for EnumSet
+
+enum Lang {JAVA,PYTHON,SELENIUM,JAVASCRIPT,CSHARP}
+
+Then in Main Method
+
+EnumSet<Lang>lang= EnumSet.allOf(Lang.class);
+
+and if we print the lang then it will give all the element present in the enum
+
+Sysout(lang);
+
+Methods in EnumSet
+1.allOf
+2.of(Lang.JAVA)
+3.of(Lang.JAVA,Lang.RUBBY)
+4.noneOf(Lang.class)   // to print the empty enum
+5.range(Lang.JAVA ,Lang.PYTHON)
+6.remove(Lang.JAVA);
+7.removeAll(newlang);
+
+
+we can also iterate the enum by using iterator

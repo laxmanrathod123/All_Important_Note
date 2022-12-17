@@ -1,0 +1,20 @@
+Day and Calender concept in Java
+
+Method and Implementation of Day class
+
+Date dt= new Date()  // Need to import Date from the java.util package
+
+System.out.println(dt.toString()); // default way of printing the date
+
+SimpleDateFormat sdf= new SimpleDateFormat("dd/mm/yyyy hh:mm:ss");
+System.out.println(sdf.format(dt));  
+
+Method and Implementation of Calendar class
+
+Calendar cal= Calendar.getInstance();
+	        System.out.println(cal.get(Calendar.HOUR));
+		System.out.println(cal.get(Calendar.MINUTE));
+		System.out.println(cal.get(Calendar.SECOND));
+		System.out.println(cal.get(Calendar.MILLISECOND));
+		
+

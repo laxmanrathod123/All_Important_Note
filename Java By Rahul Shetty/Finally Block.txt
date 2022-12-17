@@ -1,0 +1,13 @@
+Finally Block
+
+Even if the script is fail or some code in the line may fail still finally block is executed no matter if script is fail or not
+Best way to use finally block 
+1. To close the browser at the end of the script run whether is passed or fail if we write driver.close in finally block its close the browser
+2. To delete the cookies
+
+Execution is passed or fail finally block get executed
+
+when the finally block is not executed ?
+
+When we stop the jvm(red button which is showed in console when our script is running ) then finally block is not executed 
+In that case finally block will not executed.

@@ -1,0 +1,9 @@
+Testing OAuth 2.0 API's using Postman and Rest Assured Automation
+
+Mechanism to genearate the access token on oath authentication
+  first we sign by using third party authentication like google or gmail or facebook
+then google do the authentication first in there authentication server and check the user is present or not
+then google generate one time password and send to the bookmyshow where the user get into the sign in
+then bookmy show hit the resourse server of the google by using this one time password and then google verify that password and send detail 
+which bookmy show required like first name , last name and email and with access token and that access injected inot the browser
+whatever the operation we perform for booking the ticket and then bookmy show send the ticket detail to our registered mail id  

@@ -1,0 +1,204 @@
+Test NG
+
+How to create the TestNG PageDesignPattern project
+
+1.Creat Maven Project with archetype as quickstart
+2.Add dependencies in the POM.xml file 
+i.    selenium
+ii.   test ng
+iii.  WebDriverManager
+
+
+
+testng.org is the official website
+
+go to the eclipse marketplace
+search for test ng and installed
+
+how to check test ng is installed or not
+go to window and click on preferences and type test ng you will see or else if you are not able to install the test ng from marketplace then go to
+official website and find out the ecliplse plugin for test ng and copy that url and paste it in installed software tab .
+
+how to run test with Test Ng
+With the annotation @Test
+
+we can define multiple test cases in one class
+
+in xml file
+ if you dont want to run any particular test cases or say like method 
+then you just write 
+
+in methods tag of class <exclude name="name of that method "/> so that defined particular method is not execute
+
+and suppose there is requirement like dont run 38 method out of 40 method then how can you do that 
+=> so every time its not possible to write exclude 38 time so we have
+include tag and define this 2 methods into that include tag
+
+<include name="defined the method name "/>
+<include name= "defined the method name "/> 
+
+then only 2 method will run instead of 40 methods
+
+
+and suppose there is method with starting as mobile and having 100 method we dont want to run all that 
+
+then how to do that 
+
+<exclude name ="mobile.*"/>  so this mean all the method start with mobile are not going to be execute 
+
+
+Run your test cases on package level
+
+Q: How to run your all test cases in one package
+
+A: simply create one xml file and define test and packages and defined the name of package you want to run
+
+
+Test NG Annotation
+
+@BeforeTest 
+
+suppose we have multiple classes that is in one test in xml file and we want to run any one particular method from all method then that particular
+method is having @BeforeTest tag then it will execute first from all method define in any class
+
+@AfterTest 
+similary for the @AfterTest method will execute at last of all method execution  it will valid only for the test folder not for entire suite
+
+NOTE: if this annotation belongs to one test folder and in xml you have more than one test folder then only where the annotation is defined there 
+this will applicable not in all test folder 
+
+@BeforeSuite
+
+The scope of the suit is on entire xml file means it will execute first and for the test the scopet of BeforeAfterTest is only up to the test folder
+
+@AfterSuite
+ It will execute at the last and the scope of this suite is valid for the entire suite 
+
+@BeforeMethod 
+
+It will execute before every method in the class like if there are five method in th class so before all these five method these BeforeTest annotation 
+method will execute first 
+
+Use: 
+it will use for deleting the cache and the cookies for executing the every method
+
+@AfterMethod 
+
+It will execute after the all each and every method is executed scope is only upto the class level
+
+@BeforeClass
+
+Before executing all the method present in the class BeforeClass method will execute first and similarly after execution of all method present in the 
+class AfterClass annotation method is execute at lat 
+
+scope of this annotation is upto the before class level 
+suppose we have ten method in class and without touching the execution of all ten method if you want to run any method before that then you can use 
+this BeforeClass annotation 
+
+similarly,
+
+@AfterClass 
+
+similarly after execution of all method present in the class this annotation method will execute at last
+
+
+groups
+
+Requirement like if I have 100 test cases and I want to run only 4 out them then how should  I run then at this time groups is usefull 
+
+When you want to run any method from different different classes as a part of smoke test then you will use groups and just inlcude then and if you dont 
+want to run any particular test cases as well then you can mention exclude so except all excluded test cases remaining all method will execute
+so you can include a groups and excludes a groups
+
+to define group in xml file 
+suite 
+test
+groups 
+run 
+<include name ="Smoke" /> 
+run
+classes
+class 
+clasees/>           => this is the flow
+test
+suite
+
+At class level all the method present in the class is executed as per the Alphabetical orders .
+
+This is all about the xml file
+
+
+
+
+Helper attributes:
+
+<suite parallel="tests" name="Suite">
+
+If we want to run our test cases in two same browser at the same time then we can defined in this way in xml file and our test cases run parallel
+
+1. dependsOnMethods
+
+This is the feature of testng where suppose if we want to run particular method before any specific then we can use this tag .
+suppose Iamexecutefirst() this is  the method and Iamexecutelast() this is the method and if you want to run second method first then on first method
+you need to define this tag
+
+Iamexecutefirst(dependsOnMethods={"Iamexecutelast"})   => its means the second method will execute first instead of first method
+
+you can defined multiple methos as well 
+
+
+2. nabled=false  To off the test cases
+
+It will not run that particular method where we defined this helper attributes enabled=false, It mean this method will be skipped and not run 
+
+
+3.Parameters (global environment variables can be added in xml file with parameterizations)
+
+its work like configurations properties files 
+you can defined you global parameters like urlname from the xml file 
+
+<parameter name="URL" value="https://www.google.com"/>
+
+@Parameters({"URL","API Key"})
+@Test
+public void parameterizedmethod(String url, String apikey){
+System.out.println(url)
+System.out.println(apikey)
+}
+
+
+
+
+4.timeOut
+@Test(timeOut=4000)   => it will wait upto the four second
+we can giv timeout for the particular method .In case if some method taking time to execute and you dont want to make it fail then you can defined 
+the time out
+
+
+5.DataProvider
+
+Famous interiview question 
+
+How do you achieve parameterization in test ng? 
+Ans:  By using dataProvider and form test ng xml file by using parameter where we can mentioned our global variable so this are the two way to achieve
+the parameterization in test ng
+
+Listeners in Test NG
+
+Whenever test cases is failed then test ng have feature like to get the screenshot or other detail like pass or fail the test by using ITesListernes
+
+Its an interface having their own methods and we need to write the code inside there methods 
+
+Running Test Parallely with Test Ng
+
+Need to add Parallel tag and thread count in the xml file
+suppose we need to run the test folder so you can mention the parallel tag at suite level
+and suppose if you want to make execute classes as well in parallel then you should mention the parallel tag at test level
+
+example : 
+<suite name="Loan Department " parallel name="tests" thread-count ="6"/>
+
+this is for the test level
+
+and for the class level just defined this in test folder
+<test name="personal loan parallel " parallel name="classes" thread-count ="2"/>

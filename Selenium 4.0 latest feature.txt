@@ -1,0 +1,13 @@
+Selenium 4.0 Latest feature
+
+selenium relative locators
+
+above() => Element loacted above with repsect to the specified element 
+below() =>  Element loacted below with repsect to the specified element 
+toLeftOf() => Element locatd t the left of specified element
+tiRightOf() => Element located to the right of the specified element
+
+Syntax
+driver.findElement(With tagName("").above(WebElement))
+
+import static org.openqa.selenium.support.locators.RelativeLocators.*;

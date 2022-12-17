@@ -1,0 +1,32 @@
+     Map Collection
+
+     Map Inteface
+
+HashMap and HashTable implementing Map Interface
+
+one key and value pair is called as entry so map is a collection of Entry
+
+Every key is unique
+
+HashMap is class and its inherits abstract Map class its mean its extend abstract class and implementing the map interface
+
+Properties of HashMap
+1.its contain only unique element
+2.its store the value in the form of key and value format
+3.it may have one null keys allowed and store multiple null values
+4.it maintain no order means indexing is not present
+5.Dublicate key are not allowed (if we add the dublicate key then its  old value should be replaced with new value) but dublicate values are allowed
+6.Means Key can not be dublicate
+7.only one null key is allowed
+8.null values can be multiple
+
+
+
+
+
+
+
+
+
+
+

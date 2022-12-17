@@ -1,0 +1,4 @@
+Broken Link
+
+The Link which is pointing to the wrong url or on click which rnders the user on 404 page not found error
+that called broken link

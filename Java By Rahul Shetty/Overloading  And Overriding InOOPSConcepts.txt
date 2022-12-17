@@ -1,0 +1,20 @@
+OverLoading concept in OOPS
+
+In sort:
+
+Same method name but the different argument with different data type of argument
+
+
+Overloading means if the class contain different method with the same name but different argument 
+
+NOTE : In a class multiple method with the same name but the differentiating with base upon the argument its called functional over loading
+
+=> same method name => but different data type in the method argument
+
+
+Method Overriding concept in OOPS
+
+overloading means replacing the parent same method which where present in the child class means if we print the same method then the content is  printed for 
+the child class not for parent class 
+
+so the parent class method is replaced with the child class content .

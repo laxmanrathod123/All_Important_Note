@@ -1,0 +1,11 @@
+Interface OOPS concept
+
+Inteface is lies on the same line of class but the only difference between interface and class is that interface have methods but not the body
+
+key point
+1. Interface have methods but not the body
+2. To implement the Interface we use 'implements' keywords
+3. One class can implement more than one interfaces
+4.Interface contain all incomplete method that is called abstract method
+5.Access specifier in the interfaces must be public and if we have variable then its also public 
+

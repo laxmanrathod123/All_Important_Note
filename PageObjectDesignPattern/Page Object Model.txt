@@ -1,0 +1,41 @@
+Page Object Design pattern work
+Note:
+Page Object do not hold any hard coded data . it only focus on object and action method 
+for every page create separate ,separate classes 
+Reusable class is parent class for every class and that can be reuse in any class based on there usability
+So there are two way to use the reusable method 
+1.you can crate object of class (but that is not good for memory use)
+2.use inheritance concenpt extend that class to child class(wherever you see extend keyword in class that mean we are exteding
+the reusable class )
+
+Reusable method should be generic that should not be hard coded
+
+like login page , home page, product page etc. whatever
+
+1.Landing page/login page/login page
+All the object belong to login page need to create here
+driver is main important 
+we need to give driver from main test classess to page object classes how we are giving by creating the object of that class in 
+main class and in argument we are providing driver
+then 
+we need to catch that driver in page object class by creatin constructor 
+and
+suppose same driver we need to give to parent class which is inheritating by child class using extend keyword then on same class
+need to write super(driver) and this driver we can catch in parent class by creating a constructor.
+
+so every child class which is extending the parent class that class need to give the driver to the parent class 
+
+constructor
+constructor is execute first when touch your class . means constructor will call out before class execution 
+
+How to assign driver life from one class to another class
+eg. suppose we have standalone test and page factory class 
+so if you want to assign the driver from standalone test to page factory class you can create constructor in page factory class
+and give the life of driver from main class 
+
+public LandingPage(WebDriver driver){
+this.driver= driver; => this driver is comming from standalone test and we are assigning to the local current class driver
+PageFactory.initElements(driver, this);
+}
+initElement of pagefactory will intialise all the webelement 
+2

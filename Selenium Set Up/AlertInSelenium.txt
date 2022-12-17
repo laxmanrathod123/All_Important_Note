@@ -1,0 +1,18 @@
+How to Handle The Alert and popups
+
+To  Handle the alert we have Alert class
+
+Alert alert= new Alert();
+Alert alert1=driver.switchTo().Alert();
+alert.accept();   //accept method will click on the alert popups
+alert.getText();  // getText() method will gives you the text present on the alert
+alert.dismiss();  // dismiss method will cancle the alert 
+
+
+Browse/Upload/Attach 
+How to attach the file 
+How to handle file upload pop up
+
+Just inspect the all these mention button and do sendKeys inside this just pass the path the file path and name of that file .
+
+

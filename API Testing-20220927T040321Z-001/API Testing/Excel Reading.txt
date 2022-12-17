@@ -1,0 +1,69 @@
+
+
+Exel data read
+
+Need two dependencies of Apache
+1.poi-ooxml
+2.poi
+
+Step
+To get the control over the entire entire exel sheet we need to 
+
+create the object of the XSSfWorkbook class  Then we have access to the  n nubmer of sheet present in the workbook
+
+Sheet is collection of n number of rows and the from the sheet we go and access all the rows
+
+Then once you get th access to the row then we have access to all the cell of the rows
+
+Then once you get hte acess to the cell then you can pull the data from that rows
+
+Step
+
+Create the object of the XSSFWorkbook class
+Get the Access to the all the sheet present in the workbook
+Get the acess to all the rows of the sheet
+Get the access to specific rows from all the rows
+Get the acess to specific cell of the row
+Access the data from excell into array
+
+FileInputStream fis = new FileInputStream("Give the path of the file");
+XSSFWorkbook workbook = new XSSFWorkbook (fis);          // at this stage we have acess to all sheet present in the workbook i.e we have access to the workbook
+ int sheets =workbook.getNumberOfSheet();
+
+for (int i= 0; i<sheets; i++){
+  if(workbook.getNameOfSheet(i).equalIgnoreCase("TestData")){           // Next Step
+
+  XSSFSheet sheet=workbook.getSheetAt(i);
+
+    Iterator<Row>rows=sheet.iterator();
+   Row firstrows= rows.next();
+      Iterator<Cell>cv= firstrows.cellIterator();
+int k=0;
+int column=0;
+while(ce.hasNext()){
+        Cell value= cv.next();
+        if(value.getStringCellValue().equalIgnoreCase("TestCases")){
+          column=k;
+           }
+k++;
+}
+System.out.println(column);
+
+while(rows.hasNext()){
+
+Row r=rows.next();
+if(r.getCell(column).getStringCellValue().equalIgnoreCase("purchase"){
+Iterator <Cell> cv=r.cellIterator();
+while(cv.hasNext()){
+System.out.println(cv.next().StringCellValue());
+
+}
+}
+}
+}                                                                  // At this stage we have an acess to the our mention sheet that is TestData
+}
+
+// My requirement are identifying the test case column by scaning entire first rows
+// Once we identify the rows then we need to scan that entire rows of that column
+i.e once column is identified then scan the entire testcase column  and identify the purchase tstcase 
+// after yo grab that puchase row pull all the data of that row and feed it to test 

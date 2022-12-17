@@ -1,0 +1,102 @@
+                                                                                Collection 
+
+
+Initially, collection framework is simply called Java.util package or Collection API. Later on, Sun Microsystem had introduced the collection 
+framework in Java 1.2. It was developed and designed by “Joshua Bloch”.
+
+List ->
+
+ArrayList, vector, and LinkedList are three concrete subclasses that implement the list interface.
+List interface in java has four concrete subclasses. They are ArrayList, LinkedList, Vector, and Stack. 
+These four subclasses implements the list interface.
+
+The Vector class is deprecated since JDK 5.
+
+We are not working in the multi-threading environment in Java because ArrayList is non-synchronized.
+
+         ArrayList
+
+After JDK 8 we can use Lambda function to print the Arraylist
+ar.stream().forEach(ele ->System.out.println(ele));   // This statement also print the arrayList present in the collection
+
+ArrayList are dyanamic in nature means we can add element incrementaly
+Virtual capacity of the arrayList is 10 which is bydefault and physical capacity is zero
+
+ Method use in ArrayList
+Syntax of ArrayList
+
+ArrayList <Object> arr= new ArrayList<Object>();
+
+Also we can create all data type ArrayList like StringArrayList , IntegerArrayList, CharacterArrayList, DoubleArrayList etc.
+1.size()  ->>>>   This method return the array size (how many object or element present in collection)
+2.add()   ->>>>   method to add the object (added element is added in indexing format)
+3.addAll()->>>>   This method add the collection or object by using index or we can add direct collection in each other
+4.get()   ->>>>   method to get the object (we need to write the index of the object)
+5.add ()  ->>>>   method is used to add the object (so in this method we need provide index and element which we are going to add)
+6.set()   ->>>>   This method is used to replace the existing element so need to provide index and element which is goint to replace eg.(1,"write string here")
+7.contains->>>>   check the object present in collection or not (Written type is boolean its return true or false)
+8.containsAll --> check the one collection object present in another collection or not (checking the one collection into another collction)
+9.removeAll->>>> This method is used to remove the object from the collection
+10.remove()->>>>  used to remove only single object
+11.RetainAll    (This method remove all the matching object and gives us a updated collection)--> means only common element we are get after doing 
+                 retainAll and unmatched element are removed
+12.clear() ->>>> Its clear the collection
+13.Collections.sort(number) ->>> sorting of the collectin in aceding oreder 	
+14.indexOf("java")  // return the index
+15. sublist () ->> used to create the new arrayList
+16.toArray()  ->>> Its give us single diamentional array
+
+
+
+
+
+
+
+
+
+
+
+
+properties of ArrayList
+1.Dublicate objec are allowed
+2.Null values are allowed (we can add dublicate null value also like e.g ar.add(null); multiple time)
+3.Object store in indexing means ordered collection
+
+
+How to print the arrayList : There are four way to print the arrayList 
+1.By using Iterator
+
+System.out.println("Printing the value by using iterator");
+
+Simple way of ArrayList
+ArrayList <String>names= new ArrayList<String>(Arrays.asList("laxman","Rathod","Pune","mumbai","java"));
+		
+System.out.println(names);
+
+Iterator <String> it=names.iterator();
+while(it.hasNext())
+{
+System.out.println(it.next());
+}
+
+2.By using Lambda expression
+
+System.out.println("Printing the value by using lambda");
+
+names.stream().forEach(ele -> System.out.println(ele));
+
+3.By using foreach loop 
+
+for (String s: arr1) 
+{
+System.out.println(s);
+}
+
+4. By using for loop
+
+for (int i=0; i<arr.size(); i++) 
+{
+System.out.println(arr.get(i));
+}
+
+

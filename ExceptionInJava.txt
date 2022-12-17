@@ -1,0 +1,20 @@
+Exception Handling
+
+Exception :-> Any abnormal condition or event that will disturb the regular flow known as exception
+
+Exception Handling :-> If we have alternate solution for the disturbing event then its called Exception Handling
+
+Throwable is supermost class of Exception
+
+Throwable have two classes
+1.Exception and 2. Error  both these class have Throwable is parent class and Object is parent class of Throwable/all the classes in java
+
+1.Exception : i) its occures in program
+              ii) Exception are recoverable i.e programmer can handle using try catch block
+              iii) Exception are of two type - a) Compile Time Exception also called checked exception
+                                               b) Run Time Exception also called unchecked Exception
+
+2.Error : i) Error is due to lack of system resources (Example : Ram is not sufficient)
+          ii) Error are not recoverable i.e programmer can not handle by their level 
+          iii) Error contain only type of exception i.e Run Time exception also called as unchecked exception
+    

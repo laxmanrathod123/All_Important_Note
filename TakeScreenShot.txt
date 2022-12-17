@@ -1,0 +1,11 @@
+How to take screenshot in selenium webdriver
+
+pubic static void takesnapshot(WebDriver webdrive, String filepath)
+{
+
+TakeSceenShot scrshot= ((TakeScreenShot)webdriver)
+File ScrFile=scrshot.getScreenShot(OutputType.FILE);
+
+
+
+this.takesnapshot(driver, D://foldernme//test.png  )

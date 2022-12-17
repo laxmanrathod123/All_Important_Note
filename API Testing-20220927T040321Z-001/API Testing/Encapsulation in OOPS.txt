@@ -1,0 +1,6 @@
+Encapsulation In OOPS
+
+Encasulation mean to bind the data or to hide the data to achieve the encapsulation we need to declare the 
+variable of the class as private and then generate the public getter and setter method to set and get the data 
+
+private keyworld play the main role in encapsulation

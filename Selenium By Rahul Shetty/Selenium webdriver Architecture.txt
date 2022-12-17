@@ -1,0 +1,16 @@
+Selenium WebDriver Architechue 
+
+Once you write you test case by using any tool and languages like eclipse and java with selenium and once you trigger the test then our code written 
+will be converted into the json format This is first step which happen in backend when you write the code and trigger a test
+
+Then our code reaches the browser driver like chrome or firefox whatever we selected 
+
+whatever the code from the chromedriver it take action on it and execute on the main browser 
+
+Request
+eclipse => json format => browser driver => browser 
+
+Response
+browser => browser driver=> json format =>eclipse  This is how its happened in the backend
+
+browser driver is responsible to automate our code on the browser

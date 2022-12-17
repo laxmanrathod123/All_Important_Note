@@ -1,0 +1,65 @@
+Array 
+
+In java Array is an object 
+At the time of declaration we can not provide the size of the arrray only at the time of creation we provide the size of the array
+int ar[];===> declaration
+ar= new int [3]; ===> creation 
+Static Array is called the one diamentional Array
+Object is superclass of Array means Java ke andar jitane bhi object hai vo heap memory ke andar store hote hai so array bhi heap memory ke andar store hoga
+Array is used to store similar data type value in Array variable (That variable value store in java memory)
+Array is homegeneous type of data and only store similar kind of data like array of int ,array of short, array of long like that
+Syntax
+
+First way  ---->>>>>>>>>>> Single Diamentional Array
+
+int ar[]= {10,20,30,40};     // here we will dyanamically increasing the value of array
+
+Second Way
+
+int ar[]= new int[5];
+int ar[]= new int[]{10,20,30,40,50};  // this is also way of declaration creation and initialization
+ar[0]=10;
+ar[2]=20;
+ar[3]=30;
+ar[4]=40;
+ar[5]=50;
+
+ Second way ---->>>>>>>>>>> Two Diamentional Array
+int ar[][]= {{10,20,30},{40,50,60},{70,80,90}};
+
+int ar[][]= new int [3][2];         //   int ar[row][column] ar= new int [2][3];  means two rows and three column 
+		ar[0][0]=10;
+		ar[0][1]=20;
+		
+		ar[1][0]=30;
+		ar[1][1]=40;
+		
+		ar[2][0]=50;
+		ar[2][1]=60;
+
+---->>>>>>>>>>> Three Diamentional Array
+ int ar[][][]= new int [2][3][4];
+
+** If you want to store many value in a single variable then we will go for array or we can use array there
+eg. int a=30;
+ 
+so the variable a is storing 30 value if we want to store again any value in this variable then the value should be replace 
+ a=50; so the value of a becomes 50 ;
+
+to overcome this array come into picture
+
+only same data type of element we cant store
+we can not store multiple data type element
+
+There are two type of Array 
+1.Single diamentional Array  --->>> int a[]= new int[5];
+2.Multidiamentional Array    ====>>>i.Two diamentional Array ii.Three Diamentional Array     --->>> int a[][]= new int[5][3];   row and column
+
+Disadvantages of Array
+1.Array is fixed in size (Thats why is called static array) if we give more than size then it will give arrayoutofbondexception
+2.It only store similar data type of Array like int , string like that
+
+Advantage of Array
+1.we can store more than one value in a array variable
+2.we can store multiple datatype in object Array
+3.Array is fast as compare to primitive data type(Speed of the array is fast)

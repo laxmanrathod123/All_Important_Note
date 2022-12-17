@@ -1,0 +1,126 @@
+Git Repository
+
+Git hub is cetral place where you can post your code and take the latest code from the git hub
+
+laxmanrathod2142@gmail.com
+Password : githublaxman123
+Username : laxmanrathod123
+
+There are many tools that talk to git 
+Tortise Git for UI
+Eclipse
+Intellij
+ 
+
+Git Command to connect Repository and push our code
+
+git config --global user.name "Laxman"                         => You need to tell who you are so name is given 
+git config --globla user.email "laxmanrathod2142@gmail.com"    => Provide email 
+git init     => for initialising our folder to read the git 
+git add*     => add is command which say that add you files to stash and * represent add everything
+git status   => what are the file are added to the stash  
+
+git commit -m "write a message for commit"
+=> commit stand for the file we are commiting for repository
+
+m stand for the message for the commiting 
+and in double coat we need to write the message for the commit
+
+git remote add origin paste the git hub link here
+
+This line will connect remote repository to our local repository
+
+git push origin master  => This command will push the code to master branch of Repository
+
+if you done some changes and we need to take the pull then write the below command
+
+git pull origin master  => This command will download the latest changes have been made through project
+
+
+End to End flow for push and push 
+
+ To add the local project to repository
+
+git init 
+git add *
+git status
+git commit -m "This is my commit"
+git remote add origin paste the link here for the project 
+git push origin master
+
+To get the latest pull or to get the latest code from central repo
+
+git init
+git clone paste the repository url
+
+
+To get the latest pull with latest modify code write the belowe command
+
+git init
+git pull origin master  => This command will download the latest code changes done anyone to repository
+
+ 
+                     Branching 
+
+
+ Branching means to extract the sub-brach from the master brach and all team do their work in sub-branch they will not touch the master branch
+
+after a couple of month and day if the architech realise that the branch is ready execute all over test cases then they simply merge develop branch
+
+into master brach so this is the concept
+
+how to create the sub-branch
+
+git checkout -b develop 
+
+checkout =>stand for extract the new branch from the master 
+-b stand =>for name of the new brach
+develop  => its a branch name so afer hitting this commmand its copies the code into new branch
+
+if you want to know in which branch i am then just write the below command
+
+git brach   => it will all the branches and point the brach where you are in
+
+
+so now we are in develop branch and we just added few test cases and we need push our code then do the same code
+
+git add *
+
+git status  => check the changes we made 
+
+git commmit -m "This is commit from new develop brach"
+
+git push origin develop  => This time we need to write the name of the new brach
+
+
+Then if another person want to take pull from the created develop branch then that person need to take the pull from that branch and convert into 
+develop brach here we go
+
+git pull origin develop  => This command will download the latest code
+
+git checkout develop   => This command will switch the master branch into the develop brach
+
+if you want to delete brach then
+
+git branch -d nameofthebrach   => -d stand for delete the branch
+
+
+How to merge develop branch into the master brach
+
+first you have swith to master branch
+
+git checkout master
+
+git pull origin master => make sure you have latest code up to date
+
+git merge develop
+
+
+    
+
+
+
+
+
+
+

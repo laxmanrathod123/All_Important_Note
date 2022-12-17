@@ -1,0 +1,11 @@
+Inheritance in OOPS Concepts
+
+Inhetance : To get the properties of one class into another class or to inheritate the properties of one class into another class thats called inheritance
+
+To achieve the inheritance we use extends keyword
+
+we can inheritate the object , class, and variable of the parent class 
+
+Mulitple inheritance is not possible in Java
+
+And this can be achieve with the help of Interfaces

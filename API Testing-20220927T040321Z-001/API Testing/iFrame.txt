@@ -1,0 +1,4 @@
+Iframe in selenium
+
+How to identified that iFrame is there not
+=> we can Identify the iFrame by Id, name, element and index.

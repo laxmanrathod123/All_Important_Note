@@ -1,0 +1,14 @@
+Package In Java
+
+If you are in same package and you want to access the another class method then you can simply create the object of that class and use the method present inside that class
+but if 
+      you are going to create the object of class which is present in the another package then at that time its shows error ,and that error ask about to import that package in which
+that class is present .
+
+means if you want to access the class from the another package then you need to import that package
+
+java.lang -  Default package
+
+java.io (io -> input and output ) - file reading and file writing stuff goes inside this package
+
+java.util ->  collections and interface

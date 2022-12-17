@@ -1,0 +1,28 @@
+
+
+What is selenium ?
+
+Selenium is Web-based automation tool. Used to automate web based Automation
+
+Browser support:
+Mozila fireforx
+Google Chrome
+Internet Explorer
+Opera
+Safari
+
+its compatible to the above framework
+
+Selenium is third party tool its not programing languages
+
+Selenium Programming Languages Support?
+
+Java
+C#
+Python
+Rubby
+JavaScript
+PHP  
+
+Selenium is campatible with above languages
+Selenium cant work on desktop application and mobile application its only used to automate the webbased automation

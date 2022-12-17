@@ -1,0 +1,70 @@
+                                                                            String in Java
+
+
+
+String is one of the prebuilt class in Java
+
+There are two way to represent the string
+1.Literal way
+2.By creating an object of String
+
+Syntax of String 
+
+String str= "Hellow" ;
+
+String str= new String ("Hellow");
+
+Method of String
+
+1.charAt()  // This method return the character present in the given String so we need to pass the index ,means at what index character is present charAt method start with zero index
+
+2.indexOf() // This method also return the index of the character so need to pass the character and take the index of the character
+
+2.substring() // If we want to pullout the substring from the given string then we use this method so need to pass the start index and end index 
+                 inside this method there are two method which start from begining index and another is like we need to pass the start index and end index.
+
+NOTE : if we pass the character and which is not present the given character then its gives the - value and give an error which is occure in indexOf method 
+
+4.concat() // This method is used to joined the two string 
+
+5.trim()  // if the white spaces is present the given string and if we want to remove that white spaces then we use this trim method
+
+6.toUpperCase() // This method will convert given string in capital letter 
+
+7.toLowerCase()  // This method will convert given string in small letter 
+
+8.split("t");    // This method will retrun the two string eg.Javatraining is a string and we split by using letter "t" then it will return the two string from letter 
+                 t and it is Java and raining so the return type of the split is String array and we are storing in string array if we want to print the string we need
+                 to print the index of array ar[0] and ar[1]
+
+9.replace() // its replace the character in the given string so we need to pass the old character and new which we are going to replace
+
+10.replaceAll() // This method replace all the given string so need to pass the given String and new string which we need to replace
+
+11.length() // its give the length of the method and its start with 1
+
+12.equalIgnoreCase()  // This method ignore the capital and small letter present in the string and return the true or false value based on the comparison
+
+
+Why the string is Immutable in Java
+
+-> Because the string is not alterable so that why string is immutable in java
+
+To overcome this issue we have two classes that is 1.StringBuffer and 2. StringBuilder()
+
+method of this two classes
+1.append()  // to add the string
+2.insert()  // to insert the string or character
+3.remove() // to remove the string
+
+same method also used use in both classes
+
+
+Differenece between equals and == method
+
+equals method compare the string present in the object and == method compare the references/object of the String
+
+
+NOTE: String class create new object in memory every time                                                                      String str= new String ("Hellow")
+")
+      String literal not create the object in the memory once we craete the object again its poiting to the previous object   String str= "Hellow"

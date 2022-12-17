@@ -1,0 +1,45 @@
+Wait In Selenium
+
+1.ImlicitWait
+2.ExplicitWait
+3.Thread.sleep()
+4.fluent wait
+
+1.pageLoadTimeout(provide time in number, TimeUnit.SECOND);
+
+pageLoadTimeout will instruct driver like boss please wait for the 40 second to page load and then perform the action
+its dyanamic in Nature if our page is loaded with in 2 second then rest of the 38 second will be ignore means its not wait for the remaining second again thats why its
+its called dynamic in nature
+
+
+Syntax
+driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));  // pageload wait 
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));   // imlicitwait
+
+ImlicitWait
+
+Hey wait for n number of second before you throw the exception means wait for the specific amout of time and if you not find the element then you 
+shoud fail.
+
+Its global wait we are defining it globally
+if you give the wait of 30 second and webelement is found with in 3 sec then rest of the second will ignore
+drawback 
+if in our script some of the element is not present like 4 element is not present and we are set gloabal wait to identify this then wait for all the
+element and fail so there is wastage of time there.
+
+and suppose one of the element should be load within 2 sec and we apply the wait of 5 second then this is defect and we cant find it through the wait
+ so its disadvantage of this wait, so its come into performance issue
+means performance issue is not caught
+
+ExplicitWait
+In explicit wait you can target specific element and wait
+wait is apply only at target element 
+you add to add more code with that specific line
+
+Thread.sleep() 
+static wait not ignore the remaining second after the element is found
+
+fluentWait
+In fluent wait there is polling time means if we give the fluet wait of 10 sec and then give polling time of 2sec then every 2 sec it will scan the 
+element is there or not 
+so its monitors on regular interval of times

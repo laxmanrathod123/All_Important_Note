@@ -1,0 +1,7 @@
+JavaScriptExecutors
+Why we need the javascript executor because the webpage is combination of html,css and javascript 
+sometimes when selenium is not able to perform some particular aciton on web page then at that time we use java script executor
+
+window.location='https://www.facebook.com'  and hit entere it will open the site
+
+document.title give you the title of that page

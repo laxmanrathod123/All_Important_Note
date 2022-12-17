@@ -1,0 +1,12 @@
+Super Keyword In Java
+
+Super keyword is used to access the parent class variable ,method and constructor
+
+super. keyword is used to access the variable and method of parent class 
+super() method is used to access the constructor of the parent class constructor
+
+
+This Keyword In Java
+This. keyword is used to get the global variable of same class 
+
+

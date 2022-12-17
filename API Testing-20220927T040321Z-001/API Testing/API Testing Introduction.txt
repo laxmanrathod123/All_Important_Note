@@ -1,0 +1,100 @@
+                                                                      API Testing
+
+In every project there is client and server
+
+To Test the API We need API contract that will give us a developer . It contains all the information 
+ 
+ we are sending request from front end throught the API to the server and after server process the request and give us response back to API and then
+API send the same response to the front end which is nothing but the clint 
+sending request by using HTTP protocol method which is independent
+
+Its an interface which play the key role between client and the server 
+
+EndPoint/Base URI
+
+Address where API is hosted on the server.
+
+HTTP method are commonly use to communicate with Rest API's 
+
+commonly used method to communicate with the API 
+
+we often called as CRUD operation 
+
+C FOR CREATE 
+R FOR RETRIVE
+U FOR UPDATE
+D FOR DELETE
+
+ 1. GET Method :
+
+ whenerver you want to retrieve some information from the server. No Payload or Body Required.
+
+ How to send input data in GET Method?
+
+=> using Query Parameters
+
+ 2. POST Method
+
+ Whenerver you want to create something like Reservation or booking means we are creating some information on the server then at that time we use 
+post method.
+
+post method are used to send the data to the server for example customer information, file upload and creating booking etc. 
+
+ How to send input data in POST Method?
+=> Using form Parmaters / Body Payload
+
+  3. PUT Method
+
+Update some information present int he server method at that time we use put method
+
+4. DELETE  Method
+
+ To delete something from the server 
+
+
+Parameters
+
+Path Parameter :
+
+Path parameters are the variable parts of a URL Path . They are typically use to point to a apecific resources within a colleciton, such as a user 
+identified by ID.
+
+https:// www.google.com/IMages/1234
+
+https:// www.google.com   => This is the base url
+
+/IMages                   => Resource
+
+/1234                     => path parameter  which is nothing but id of the user
+
+
+
+Query Parameters:
+
+https:// www.google.com   => This is the base url
+
+/search                   => Resources
+
+?q=newyork                => This is query parmeters
+
+
+
+Headers/Cookies: 
+
+means we are sending addional detail to process our request. 
+Headers represent the meta- data associted with the API request and response 
+eg. Authorization details
+
+what kind of request we are going to send the api that details are need to give in the headers like which format its json or xml like that 
+
+Dowload eclilse
+
+eclipse download
+
+go on main page
+
+choose Download packages
+
+select IDE for Java Developers
+
+

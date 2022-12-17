@@ -1,0 +1,197 @@
+m n  AWS
+
+laxmanrathod2142@gmail.com
+Rathod-demo-v3
+pass : Piru@123
+STEPHANE MAAREK
+
+piru-demo-aws
+Cloud computing 
+
+You can create and access your inoformation from anywhere(Office,Restaurant,Beach,Travelling,Train ,buses,plane ,ship,car)by using any devive
+(Laptop, tablet,desktop.smartphone)
+
+
+Type of cloud Available
+
+1.IAAS (Infrastructe As A Service)=> AWS, EC2 , Google Compute Engine
+
+If we want to run our service we need all physical hardware and setup and utilities then and then we run our server so instead of we are going with 
+any cloud site and asking them our requirement and setting up the virtual server with them and start using that,
+
+2.PAAS (Platform As A Service)    => Opehshift ,Google APP Engine
+
+all needed platform are in one shot 
+
+3.SAAS(Storage As A Service)     => Dropbox ,Google drive
+
+we can stored our information on virtual machine eg.google drive, drop box
+
+4.SAAS(Software As A Service)    => Google Docs,Zoho Docs
+
+if we want to make any document then we need microsoft office so in this no need to installed any sofwared we are creating and storing our document in
+cloud base application 
+
+first need to create the key that is used for vertual server
+
+Ec2 is used to create the vertual server where we need to select the all the configuration
+
+click on EC2
+Click on EC2 Dashboard
+and then select the configure instance details
+Seven step is involved in it
+
+1.Choose AMI
+
+2.Choose Instance Type
+
+3.Configure instance
+
+4.Add Storage
+
+5.Add tags
+
+6.Configure security Group
+
+7.Reviews 
+
+How you are going to lauch
+
+search for EC2 service
+click on EC2 Dashboard => create a key pairs => click on instance(Running) => click on Right corner for Lauch instance
+your proper region should be selected (for local its mumbai)
+
+Step 1)Choose an Amazon Machine Image(AMI)
+ => select Amazon Linux 2 AMI ,SSD volume  64-bit(x86) and click on select Type make sure its Free tier eligible
+
+Step 2) Choose an Instance type
+ => select as per need and make sure which is also free
+
+Step 3) Configure Instance
+=> select as per need
+
+Step 4) Add Storage
+=> select as per need
+
+Step 5) Add tags
+=> key        value
+   Name       Linux Webserver
+
+Step 6) Configure security Groups
+
+tep 7) Review and Luanch
+
+
+Tools for Accessing Cloud
+
+Linux server is running in CLI on AWS Cloud Instance  =>  Windows client -putty and for Linux client - ssh
+
+Linux server is running in GUI on AWS Cloud Instance  =>  Windows client -vnx for Linux client - vnc
+
+
+How to install the webserver
+
+linux commands
+
+ls
+
+sudo yum installed httpd  => This step is going to install our webserver
+
+y  => we have to specifies yes
+
+rpm -q httpd  => this step make sure our server is installed or not
+
+cd /var/www/html      => we need to create the directory 
+
+ls
+
+cat >index.html
+
+sudo-i
+
+cd /var/www/html
+
+cat >index.html
+
+Welcome to Apache Web Server on EC2  => we can specify any message
+
+systemctl start httpd     => This step start the server but its temporary start
+
+systemctl start httpd     => To make it permantely type again
+
+
+
+for window server RDP protocol is bydefault selected
+
+
+Type of Storage
+
+1.DAS -> Direct Attached Storage
+eg. Pendrive and harddisk,usb
+
+2.NAS -> Network Attached Storage
+
+3.SAN -> Strorage Area Network
+
+4.Object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cloud Computing Advantage
+
+1.Pay as you go
+
+if we are going to launch our server as instracture as a serice then we are lauching our server only for three hours ,so we will charge only for 3 hrs
+after usage we can terminate our server and only pay for 3 hrs
+
+2.Access from anywhere,anytime and any device
+
+3.Economy of scale
+ 
+we get the resources at cheaper rate
+
+4. flexibility
+
+we can change our requirement as we want like we want 1hd, ram and storage etc
+
+5.Expertly Managed
+very expert person managed the infrastructure
+
+
+
+
+
