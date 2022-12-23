@@ -34,3 +34,15 @@ Enable MFA on all account
 Rotate all your keys often 
 
 IAM credential report is an IAM security tools
+
+====================================================================================================================================================
+
+What is Auto Scaling groups?
+
+Instances are create by Auto scaling group According to the traffic on website/Application  
+
+The goal of Auto Scaling groups is to scale out (add EC2 Instances) to match an increased laod
+Scale in (to remove the EC2 instances) to match a decreased load
+Automatically registered a new instances to a load balencer
+Replace a unhealthy instances
+as the more and more load is generated then the load balencer create the EC2 instances and distribute the load among them 
