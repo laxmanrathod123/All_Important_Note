@@ -45,4 +45,18 @@ The goal of Auto Scaling groups is to scale out (add EC2 Instances) to match an 
 Scale in (to remove the EC2 instances) to match a decreased load
 Automatically registered a new instances to a load balencer
 Replace a unhealthy instances
-as the more and more load is generated then the load balencer create the EC2 instances and distribute the load among them 
+as the more and more load is generated then the load balencer create the EC2 instances and distribute the load among them
+
+=================================================================================================================================================
+AWS Snow Family
+
+Aim is to collect data and process it and migrate data into and out of AWS
+Three type
+Data Migration
+1.Snowcone
+2.Snowball Edge
+3.Snowmobile
+Edge Computing
+1.Snowcone
+2.Snowball Edge
+ 

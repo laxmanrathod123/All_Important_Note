@@ -1,4 +1,5 @@
-Locator
+
+	`Locator
 selectorhub and chropath
 
 
@@ -22,7 +23,7 @@ id
 tagname#id
 
 tagname[attribute='']
-
+    B 
 
     Link Text assist with anker tag a <a  This represent the link text
 
@@ -50,8 +51,8 @@ customize css
 
 Following-sibling
 
-suppose we have found eg. button is located three time and that is constantly changing then we need to write a customize xpath and that should not fail
-then we use this
+suppose we have found eg. button is located three time and that is constantly changing then we need to write a customize xpath and that should 
+not fail then we use this
 
 <button
 <button

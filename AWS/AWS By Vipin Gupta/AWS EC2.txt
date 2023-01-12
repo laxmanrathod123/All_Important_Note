@@ -1,0 +1,47 @@
+AWS EC2 (Elastic compute cloud)
+
+How to lauch virtual Servers
+EC2 means Infrastructure as service . This service is used to lauch the virtual sever
+
+for physical server we are saying operating system (os) for virtual server we are saying AMI(Amazon Machine Image)
+
+Instead of Physical server we need to create the virtual server by approaching any cloud service provider.
+
+Using virtulization we can create the VM (virtual Machine) divide the hardware into the vartual machine
+
+virtulization and hypervisor are used to create the virtual machine and Amazon web service is used to create the instances 1 and 2 like that
+so instance is nothing but the virtual server..
+
+Amazon EC2 Hands on 
+For creating server we need AMI (Amazon machine instance) it can be used to create one or multiple instances
+There are two method for creating instances 
+1.By using AWS Console 
+2.By using CLI mode 
+   
+AWS console 
+When we want to create the virtual server then we go to the EC2 => EC2 Dashboard => Launch Instance
+Various step are involve to launch the instance
+step 1 : Choose AMI (Amazon Machine Image) => mean which orperating system we want ot launch the instance
+step 2 : Choose Instance Type => that mean how much processor we want to give , how many ram we want to give 
+step 3 : Configure instance => how many instances we want in which zone we want 
+step 4 : Add storage => how much storage we want 
+step 5 : Add Tags  => for identifying the virtual server we need tag mean we can tag it like that is webserver and that mail server
+step 6 : Configure security group => who can access those instances
+step 7 : review => before we go the final go we can review the setting
+
+steps:
+login to aws
+select the region 
+services => EC2 => instances => Launch instances
+
+Step 1)  Choose an Amazon Machine Image(AMI)
+
+  we need to choose the operating system based on the architecture mean wheather its 64 or 32 bit 
+ => select Amazon Linux 2 AMI ,SSD volume  64-bit(x86) and click on select Type make sure its Free tier eligible
+
+Step 2) Choose an Instance type
+ => select as per need and make sure which is also free
+
+
+ 
+

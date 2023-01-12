@@ -14,12 +14,12 @@ You can create and access your inoformation from anywhere(Office,Restaurant,Beac
 
 Type of cloud Available
 
-1.IAAS (Infrastructe As A Service)=> AWS, EC2 , Google Compute Engine
+1.IAAS (Infrastructe As A Service)=> AWSEC2 , Google Compute Engine
 
 If we want to run our service we need all physical hardware and setup and utilities then and then we run our server so instead of we are going with 
 any cloud site and asking them our requirement and setting up the virtual server with them and start using that,
 
-2.PAAS (Platform As A Service)    => Opehshift ,Google APP Engine
+2.PAAS (Platform As A Service)    => Red Hat,OpenShift ,Google APP Engine
 
 all needed platform are in one shot 
 

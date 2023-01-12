@@ -1,0 +1,277 @@
+Cloud Computing Introduction
+
+You can create and Access your resources from anywhere and using any Devices at any time (24 hours)
+======================================================================================================================================================
+
+
+laxmanrathod2142@gmail.com
+Rathod-demo-v3
+pass : Piru@123
+STEPHANE MAAREK
+
+piru-demo-aws
+Cloud computing 
+
+You can create and access your  Resources from anywhere(Office,Restaurant,Beach,Travelling,Train ,buses,plane ,ship,car)by using any devive
+(Laptop, tablet,desktop.smartphone)
+
+
+Type of cloud Available
+
+1.IAAS (Infrastructe As A Service)=> AWSEC2 , Google Compute Engine
+
+If we want to run our service we need all physical hardware and setup and utilities then and then we run our server so instead of we are going with 
+any cloud site and asking them our requirement and setting up the virtual server with them and start using that.
+
+Pysical server Thing that needs for running any Service
+
+Certain operating system(OS): Red Hat Enterprise Linux, CentOS, Ubantu, Windows Server 2016
+RAM : 8GB , 16GB , 32GB 
+Processor: i3, i5, i7
+Hard Disk: Magnetic/ SSD
+NIC(Lan card or Network interface card) : 1GB, 10GB
+
+Who will mostly used this services?
+Network Engineer
+Hardware Engineer
+
+Some cloud compony :
+Amazon(AWS)EC2 , Google Cloud , Azure
+
+we will approach that compony and said we want virtual server.
+and we will have one server that will be running on cloud 
+ 
+2.PAAS (Platform As A Service)    => Red Hat,OpenShift ,Google APP Engine
+
+PHP user means PHP is used to create some dyanamic website and dyanamic application for dynamic website we need also a database so Maria DB and MySQL 
+is the database we need and when we worked with PHP we need APACHE webserver and we need LINUX as Operating System
+So whole this combination is called as Stack and we required this and this is known as platform as service and you start using it and deploying service
+
+all needed platform are in one shot 
+
+Who will used this Service Mostly?
+Mostly Programmer is used this service
+
+
+3.SAAS(Storage As A Service)     => Dropbox ,Google drive
+
+Now a day we are storing our data into the harddrive and lets say once it crash we dont have back up for that hard drive then we use this service 
+to store the data safely on the cloud
+
+we can stored our information on virtual machine eg.google drive, drop box
+
+4.SAAS(Software As A Service)    => Google Docs,r
+
+if we want to make any document then we need microsoft office so in this no need to installed any sofwared we are creating and storing our document in
+cloud base application 
+
+first need to create the key that is used for vertual server
+
+Advantage of Cloud computing:
+
+Pay as you go
+Acess from anywhere,anytime,any devices
+Economy of Scale
+Flexibility
+Expertly Managed
+==================================================================================================================================================
+
+Amazon EC2 Service is used to lauch a virtual server for free tier we can used upto 750 hours
+Amazon S3 storage we can stored upto 5gb data for free tier
+Amazon RDS Database we can used this for 750 hours
+Amazon DynamoDB is NoSQL database we can used for 25GB storage
+Amazon SageMaker is used for Machine Learning for every data scientist and developer
+AWS Lambda is free for 1 million request per monnth
+AWS SNS is used for publishing the notidication for 1 million per month for free tier
+Amazon CludWatch for Monitoring AWS cloud resources and applications
+====================================================================================================================================================
+Root user => its having all previlages and IAM user which we need to create for giving the permission to use the our services to the another user
+
+whenever you want to access the AWS resources you need to create the key Pair
+Create Keipair Using AWs console
+
+Serivices
+EC2
+Key Pair => click on this
+create key pair => click
+key pair type => RSA
+Private key file format=> .pem (for used with OpenSSH and .ppk (for use with putty))
+
+after creating the private key in .pem format save it
+
+then download the putty and puttygen software
+puttyGen software is used to convert the .pem format of private key into the ppk format 
+open puttygen software laod the private key earlier we save and save it .it will automatically save the pem format into the ppk format
+
+public and private key
+
+whenever AWS is going to create the resources it is going to lock the resources using public key so if we unlock the resources then we need to 
+use the correspondiong private key
+
+so private key is used to Acess the resourcess
+when we are going to create the private key then it is in pem format we need to convert it into the ppk format
+=======================================================================================================================================================
+ 
+ 
+Ec2 is used to create the virtual server where we need to select the all the configuration
+
+click on EC2
+Click on EC2 Dashboard
+and then select the configure instance details
+Seven step is involved in it
+
+1.Choose AMI
+
+2.Choose Instance Type
+
+3.Configure instance
+
+4.Add Storage
+
+5.Add tags
+
+6.Configure security Group
+  
+7.Reviews 
+
+How you are going to lauch
+
+search for EC2 service
+click on EC2 Dashboard => create a key pairs => click on instance(Running) => click on Right corner for Lauch instance
+your proper region should be selected (for local its mumbai)
+
+  
+
+Step 3) Configure Instance
+=> select as per need
+
+Step 4) Add Storage
+=> select as per need
+
+Step 5) Add tags
+=> key        value
+   Name       Linux Webserver
+
+Step 6) Configure security Groups
+
+tep 7) Review and Luanch
+
+
+Tools for Accessing Cloud
+
+Linux server is running in CLI on AWS Cloud Instance  =>  Windows client -putty and for Linux client - ssh
+
+Linux server is running in GUI on AWS Cloud Instance  =>  Windows client -vnx for Linux client - vnc
+
+
+How to install the webserver
+
+linux commands
+
+ls
+
+sudo yum installed httpd  => This step is going to install our webserver
+
+y  => we have to specifies yes
+
+rpm -q httpd  => this step make sure our server is installed or not
+
+cd /var/www/html      => we need to create the directory 
+
+ls
+
+cat >index.html
+
+sudo-i
+
+cd /var/www/html
+
+cat >index.html
+
+Welcome to Apache Web Server on EC2  => we can specify any message
+
+systemctl start httpd     => This step start the server but its temporary start
+
+systemctl start httpd     => To make it permantely type again
+
+
+
+for window server RDP protocol is bydefault selected
+
+
+Type of Storage
+
+1.DAS -> Direct Attached Storage
+eg. Pendrive and harddisk,usb
+
+2.NAS -> Network Attached Storage
+
+3.SAN -> Strorage Area Network
+
+4.Object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cloud Computing Advantage
+
+1.Pay as you go
+
+if we are going to launch our server as instracture as a serice then we are lauching our server only for three hours ,so we will charge only for 3 hrs
+after usage we can terminate our server and only pay for 3 hrs
+
+2.Access from anywhere,anytime and any device
+
+3.Economy of scale
+ 
+we get the resources at cheaper rate
+
+4. flexibility
+
+we can change our requirement as we want like we want 1hd, ram and storage etc
+
+5.Expertly Managed
+very expert person managed the infrastructure
+
+
+
+
+
+
+
+
+
+

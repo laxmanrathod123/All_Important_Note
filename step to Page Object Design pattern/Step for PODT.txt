@@ -1,10 +1,17 @@
-step to follo for implementing the page object design pattern
+step to follow for implementing the page object design pattern
 
 first step
 create page object package and class for the landing page and defined all the relevant locator into it
 1.username 
 2.pass
 3.button
+
+Key poit
+1.Page object do not hold any data it hold only the webelement and action method 
+2.Reusable class is parent class and that will use all the child class so to get the properties of parent class we use inheritance concept here.
+3.If our parent reusable class is getting driver from page object class then its every page object child class duty is to serve the driver to the 
+parent class by using super keyword.
+4.Validation can not go into the page object class.
 
 in this class there is no any value for the driver right so need to create the constructor and assign the driver of main class to the costructor
 
@@ -26,4 +33,8 @@ suppose we submit the credential like username and password then we are going on
 login method
 
 if we do so then we need to change the written type of the same method 
+
+how to covert the project into the test ng
+right click on project => test ng => convert to test ng
+
 
